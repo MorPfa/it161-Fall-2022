@@ -3,74 +3,47 @@
   <head>
     <meta charset="utf-8" />
     <meta name="robots" content="noindex,nofollow" />
-    <title>IT161 Test Web Page by Moritz Pfatteicher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <title>ArtRegioTours</title>
     <!-- START Style here -->
-    <style>
-      img {
-        float: left;
-        margin: 1em;
-        width: 400px;
-        height: 300px;
-      }
-      a {
-        color: black;
-      }
-      a:hover {
-        color: red;
-        background-color: blue;
-        text-decoration: none;
-      }
-      footer {
-        clear: both;
-      }
-    </style>
-    <!-- END Style here -->
   </head>
   <body>
-    <header>
-      <h1>Moritz Pfatteicher's IT161 Test Page</h1>
-      <nav>
-        <a href="https://www.w3.org/" target="_blank">The W3C </a> |
-        <a href="https://whatwg.org" target="_blank">WHATWG Community </a> |
-        <a href="https://w3schools.com" target="_blank">W3Schools </a> |
-        <a href="https://linkedin.com/learning/login" target="_blank"
-          >LinkedIn Learning Library</a
-        >
-      </nav>
-    </header>
-    <img src="images/me.jpg" alt="Picture of Moritz" />
-    <p>
-      This is my first test web page for my IT161 class. I will be testing it in
-      a live browser like Chrome or Firefox by clicking the two validator links
-      in the footer of this page
-    </p>
-    <footer>
-      <footer>
-        <p>
-          <small
-            >&copy; 2022 by Moritz Pfatteicher, All Rights Reserved ~
-            <a id="html-checker" href="#">Check HTML</a> ~
-            <a id="css-checker" href="#">Check CSS</a></small
+    <h1>Kunstreisen und Ausflüge zur Kunst</h1>
+    <nav>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="offers.html"
+            >Angebote</a
           >
-        </p>
-      </footer>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="group.html">Gruppenangebote</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">Aktuelles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Disabled</a>
+        </li>
+      </ul>
+    </nav>
 
-      <script>
-        //https://tinyurl.com/dynamic-html-checker
-        document
-          .getElementById("html-checker")
-          .setAttribute(
-            "href",
-            "https://validator.w3.org/nu/?doc=" + location.href
-          );
-
-        document
-          .getElementById("css-checker")
-          .setAttribute(
-            "href",
-            "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
-          );
-      </script>
+    <footer>
+      <p>
+        <small
+          >&copy; Weimarer Str. 55, 76139 Karlsruhe, Germany | +49 0721 470 98
+          50 ~ &copy; Alle Rechte vorbehalten.</small
+        >
+      </p>
     </footer>
   </body>
 </html>
