@@ -1,0 +1,10 @@
+.nav-item {
+  font-size: 2rem;
+}
+.nav-link {
+  color: #000;
+}
+
+.nav-item :hover {
+  color: #000;
+}
