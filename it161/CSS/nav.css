@@ -3,6 +3,8 @@
 }
 .nav-link {
   color: #000;
+  margin-top: 1.8rem;
+  margin-bottom: 0.9rem;
 }
 
 .nav-item :hover {

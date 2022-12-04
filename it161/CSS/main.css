@@ -4,6 +4,7 @@ h1 {
 
 .Navbar {
   float: left;
+  background-color: white;
 }
 .bg {
   background-color: rgb(34, 113, 84);
