@@ -20,6 +20,7 @@
 @media all and (min-width: 501px) and (max-width: 1199px) {
   .Navbar {
     width: auto;
+    height: 100%;
   }
   .nav-link {
     color: rgb(173, 165, 165);
@@ -35,6 +36,7 @@
 @media all and (max-width: 500px) {
   .Navbar {
     width: auto;
+    height: 100%;
   }
   .nav-link {
     color: rgb(173, 165, 165);
