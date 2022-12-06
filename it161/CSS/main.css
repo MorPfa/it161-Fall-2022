@@ -1,16 +1,79 @@
 h1 {
   text-align: center;
+  color: rgb(173, 165, 165);
 }
-
 .Navbar {
-  float: left;
-  background-color: rgb(34, 113, 84);
-  backdrop-filter: sepia(80%);
+  position: fixed;
 }
 .bg {
-  background-color: rgb(34, 113, 84);
+  background-image: url("/it161/images/background-medium.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-footer {
-  text-align: center;
+.nav-item :hover {
+  color: rgb(107, 104, 104);
+}
+/* DESKTOP */
+@media all and (min-width: 1200px) {
+  .Navbar {
+    float: left;
+    /* background-color: rgb(34, 113, 84); */
+    backdrop-filter: blur(1rem);
+  }
+  #HomepageHeaderPic {
+    object-fit: cover;
+    height: 30rem;
+    width: 70rem;
+    position: relative;
+    top: 2rem;
+
+    left: 20rem;
+  }
+  .Para1 {
+    width: 65rem;
+    color: rgb(173, 165, 165);
+    padding-top: 3rem;
+    margin-left: 20rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  footer {
+    text-align: center;
+    margin-top: 100rem;
+  }
+}
+
+/* TABLET/ Laptop */
+@media all and (min-width: 501px) and (max-width: 1199px) {
+  .Navbar {
+    float: left;
+    background-color: rgb(34, 113, 84);
+  }
+  #HomepageHeaderPic {
+    object-fit: cover;
+    height: 30rem;
+    width: 69rem;
+  }
+  footer {
+    text-align: center;
+    margin-top: 100rem;
+  }
+}
+
+/* PHONE */
+@media all and (max-width: 500px) {
+  .Navbar {
+    float: left;
+    background-color: rgb(34, 113, 84);
+  }
+  #HomepageHeaderPic {
+    object-fit: cover;
+    height: 15rem;
+    width: 30rem;
+  }
+  footer {
+    text-align: center;
+    margin-top: 100rem;
+  }
 }
