@@ -2,14 +2,6 @@ h1 {
   text-align: center;
   color: rgb(173, 165, 165);
 }
-.Navbar {
-  position: fixed;
-}
-.bg {
-  background-image: url("/it161/images/background-medium.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
 
 .nav-item :hover {
   color: rgb(107, 104, 104);
@@ -18,46 +10,108 @@ h1 {
 @media all and (min-width: 1200px) {
   .Navbar {
     float: left;
-    /* background-color: rgb(34, 113, 84); */
     backdrop-filter: blur(1rem);
+    position: fixed;
   }
   #HomepageHeaderPic {
     object-fit: cover;
     height: 30rem;
-    width: 70rem;
+    width: 80.8%;
     position: relative;
     top: 2rem;
-
-    left: 20rem;
+    left: 18.1rem;
   }
+
   .Para1 {
-    width: 65rem;
+    width: 70%;
     color: rgb(173, 165, 165);
     padding-top: 3rem;
-    margin-left: 20rem;
+    margin-left: 19rem;
     font-weight: 400;
     font-size: 1.5rem;
   }
   footer {
     text-align: center;
-    margin-top: 100rem;
+    margin-top: 20rem;
+    font-size: 1.1rem;
+    color: rgb(173, 165, 165);
+  }
+  .bg {
+    background-image: url("/images/background-big.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 
-/* TABLET/ Laptop */
+/* Laptop */
 @media all and (min-width: 501px) and (max-width: 1199px) {
   .Navbar {
     float: left;
-    background-color: rgb(34, 113, 84);
+    backdrop-filter: blur(1rem);
+    position: fixed;
   }
   #HomepageHeaderPic {
     object-fit: cover;
-    height: 30rem;
-    width: 69rem;
+    height: 25rem;
+    width: 80.8%;
+    position: relative;
+    top: 2rem;
+    left: 14rem;
   }
   footer {
     text-align: center;
-    margin-top: 100rem;
+    margin-top: 30rem;
+    font-size: 1.1rem;
+    color: rgb(173, 165, 165);
+  }
+  .bg {
+    background-image: url("/images/background-big.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .Para1 {
+    width: 60%;
+    color: rgb(173, 165, 165);
+    padding-top: 2rem;
+    margin-left: 15rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+  }
+}
+
+/* TABLET */
+@media all and (min-width: 501px) and (max-width: 1199px) {
+  .Navbar {
+    float: left;
+    backdrop-filter: blur(1rem);
+    position: fixed;
+  }
+  #HomepageHeaderPic {
+    object-fit: cover;
+    height: 25rem;
+    width: 80.8%;
+    position: relative;
+    top: 2rem;
+    left: 14rem;
+  }
+  footer {
+    text-align: center;
+    margin-top: 30rem;
+    font-size: 1.1rem;
+    color: rgb(173, 165, 165);
+  }
+  .bg {
+    background-image: url("/images/background-big.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .Para1 {
+    width: 60%;
+    color: rgb(173, 165, 165);
+    padding-top: 2rem;
+    margin-left: 15rem;
+    font-weight: 400;
+    font-size: 1.4rem;
   }
 }
 
@@ -65,15 +119,34 @@ h1 {
 @media all and (max-width: 500px) {
   .Navbar {
     float: left;
-    background-color: rgb(34, 113, 84);
+    backdrop-filter: blur(1rem);
+    position: fixed;
   }
   #HomepageHeaderPic {
     object-fit: cover;
-    height: 15rem;
-    width: 30rem;
+    height: 13rem;
+    width: 67%;
+    position: relative;
+    top: 2rem;
+    left: 10rem;
   }
   footer {
     text-align: center;
-    margin-top: 100rem;
+    margin-top: 10rem;
+    font-size: 0.8rem;
+    color: rgb(173, 165, 165);
+  }
+  .bg {
+    background-image: url("/images/background-medium.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .Para1 {
+    width: 60%;
+    color: rgb(173, 165, 165);
+    padding-top: 2rem;
+    margin-left: 11rem;
+    font-weight: 300;
+    font-size: 1.2rem;
   }
 }
