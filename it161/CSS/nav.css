@@ -7,9 +7,9 @@
     width: auto;
   }
   .nav-link {
-    color: rgb(173, 165, 165);
-    margin-top: 1.3rem;
-    margin-bottom: 1.3rem;
+    color: rgb(255, 255, 255);
+    margin-top: 0.9rem;
+    margin-bottom: 0.8rem;
   }
   .nav-item {
     font-size: 2rem;
