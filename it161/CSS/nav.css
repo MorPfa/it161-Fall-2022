@@ -5,6 +5,7 @@
 @media all and (min-width: 1200px) {
   .Navbar {
     width: auto;
+    height: 100%;
   }
   .nav-link {
     color: rgb(173, 165, 165);
