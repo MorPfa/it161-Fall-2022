@@ -4,11 +4,11 @@ h1 {
   margin-left: 2rem;
 }
 
-.NewsletterHeading {
+.NewsHeader {
   text-align: center;
   color: rgb(0, 0, 0);
   margin-top: 4rem;
-  margin-left: 6rem;
+  margin-left: 17rem;
   font-size: 4rem;
 }
 .nav-item :hover {
@@ -78,8 +78,6 @@ h1 {
     color: rgb(173, 165, 165);
   }
   .bg {
-
-
     background-image: url("/images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;

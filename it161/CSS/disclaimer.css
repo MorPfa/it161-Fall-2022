@@ -4,11 +4,11 @@ h1 {
   margin-left: 2rem;
 }
 
-.NewsletterHeading {
+.NewsHeader {
   text-align: center;
   color: rgb(0, 0, 0);
   margin-top: 4rem;
-  margin-left: 6rem;
+  margin-left: 17rem;
   font-size: 4rem;
 }
 .nav-item :hover {
@@ -20,9 +20,9 @@ h1 {
   opacity: 90%;
   width: 81%;
   color: rgb(8, 8, 8);
-  padding-top: 3rem;
+  padding-top: 1rem;
   margin-left: 18rem;
-  margin-top: 18rem;
+  margin-top: 13rem;
 }
 .MainContentImage {
   width: 25rem;
@@ -61,14 +61,14 @@ h1 {
   }
 
   .Para1 {
-    width: 65%;
+    width: 90%;
     color: rgb(8, 8, 8);
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
     margin-left: 2rem;
     font-weight: 400;
     font-size: 1.2rem;
     text-align: left;
-    padding-bottom: 0.5rem;
+    padding-bottom: 2rem;
     /* background-color: white; */
   }
   footer {
@@ -78,8 +78,6 @@ h1 {
     color: rgb(173, 165, 165);
   }
   .bg {
-
-
     background-image: url("/images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;

@@ -4,7 +4,7 @@ h1 {
   margin-left: 2rem;
 }
 
-.NewsletterHeading {
+.GroupHeading {
   text-align: center;
   color: rgb(0, 0, 0);
   margin-top: 4rem;
@@ -78,8 +78,6 @@ h1 {
     color: rgb(173, 165, 165);
   }
   .bg {
-
-
     background-image: url("/images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;

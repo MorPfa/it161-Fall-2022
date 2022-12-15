@@ -4,12 +4,12 @@ h1 {
   margin-left: 2rem;
 }
 
-.NewsletterHeading {
+.ToursHeading {
   text-align: center;
   color: rgb(0, 0, 0);
-  margin-top: 4rem;
+  margin-top: 8rem;
   margin-left: 6rem;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .nav-item :hover {
   color: rgb(107, 104, 104);
@@ -78,8 +78,6 @@ h1 {
     color: rgb(173, 165, 165);
   }
   .bg {
-
-
     background-image: url("/images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
