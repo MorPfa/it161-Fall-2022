@@ -103,10 +103,38 @@
       <p>
         <small
           >&copy; Weimarer Str. 55, 76139 Karlsruhe, Germany | +49 0721 470 98
-          50 ~ &copy; All rights reserved 2022
-          <a href="disclaimer.html">Disclaimer</a></small
+          50 ~ &copy; All rights reserved 2022 ~
+          <a href="disclaimer.html">Disclaimer </a>~
+          <a id="html-checker" href="#">Check HTML </a>~
+          <a id="css-checker" href="#">Check CSS</a></small
         >
       </p>
     </footer>
+    <script>
+      //https://tinyurl.com/dynamic-html-checker
+      document
+        .getElementById("html-checker")
+        .setAttribute(
+          "href",
+          "https://validator.w3.org/nu/?doc=" + location.href
+        );
+
+      document
+        .getElementById("css-checker")
+        .setAttribute(
+          "href",
+          "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
+        );
+
+      //manages mobile nav
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>
