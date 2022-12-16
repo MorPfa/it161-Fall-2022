@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="CSS/nav.css" />
     
   </head>
-  <body>
+  <body class="bg">
       
       <nav class="Navbar">
       <ul class="nav flex-column">
@@ -66,6 +66,8 @@
     <div class="wrapper">
       
       <?php
+
+      
         /*
          * Below are 2 different forms to be re-used       
          * 
@@ -83,6 +85,7 @@
         echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?>
+  </div>
       <footer>
         <p>
           <small
@@ -92,7 +95,7 @@
           >
         </p>
       </footer>
-    </div>
+    
 
     <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
 
