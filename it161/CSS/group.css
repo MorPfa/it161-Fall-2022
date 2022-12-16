@@ -208,7 +208,7 @@
     margin-top: 2.7rem;
   }
   .LogoNav {
-    height: 5rem;
+    height: 4rem;
     width: 12rem;
   }
   .LogoHeader {
@@ -221,6 +221,7 @@
     float: left;
     backdrop-filter: blur(1rem);
     position: fixed;
+    top: 0rem;
   }
   #HomepageHeaderPic {
     object-fit: cover;
@@ -234,7 +235,7 @@
     text-align: center;
     margin-top: 10rem;
     font-size: 0.8rem;
-    color: rgb(173, 165, 165);
+    color: rgb(0, 0, 0);
   }
   .bg {
     background-image: url("images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
@@ -245,8 +246,8 @@
     width: 80%;
     color: rgb(173, 165, 165);
     padding-top: 2rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }

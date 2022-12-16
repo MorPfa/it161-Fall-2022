@@ -307,6 +307,7 @@
     float: left;
     backdrop-filter: blur(1rem);
     position: fixed;
+    top: 0rem;
   }
   #HomepageHeaderPic {
     object-fit: cover;
@@ -318,7 +319,7 @@
   }
   footer {
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
     font-size: 0.8rem;
     color: rgb(8, 8, 8);
   }

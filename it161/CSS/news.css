@@ -217,6 +217,7 @@
     float: left;
     backdrop-filter: blur(1rem);
     position: fixed;
+    top: 0rem;
   }
   #HomepageHeaderPic {
     object-fit: cover;
