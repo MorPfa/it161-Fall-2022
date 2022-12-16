@@ -103,6 +103,104 @@
       <p class="Para1">
         Ihre Elisabeth Spitzbart <br /><br />und das Team von ArtRegioTours
       </p>
+      <form
+        method="post"
+        action="//submit.form"
+        onSubmit="return validateForm();"
+        class="reviewForm"
+      >
+        <div class="topHeaderForm"></div>
+        <div class="topHeaderForm2">Bewertung</div>
+        <div class="topHeaderForm3">
+          Bewerter<span class="topHeaderForm5"> *</span><br />
+          <input type="text" id="data_2" name="data_2" class="form-control1" />
+        </div>
+        <div class="topHeaderForm4">
+          Bewerten sie ihre Erfahrung<span class="topHeaderForm5"> *</span
+          ><br />
+          <select id="data_4" name="data_4" class="form-control2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="topHeaderForm4">
+          Titel<span class="topHeaderForm5"> *</span><br />
+          <input type="text" id="data_5" name="data_5" class="form-control" />
+        </div>
+        <div class="topHeaderForm4">
+          Bewertung<span class="topHeaderForm5"> *</span><br />
+          <textarea
+            id="data_8"
+            false
+            name="data_8"
+            rows="9"
+            class="form-control"
+          ></textarea>
+        </div>
+        <div class="topHeaderForm4">
+          Wurden sie ArtRegioTours weiterempfehlen?<br />
+          <span
+            ><input type="radio" id="data_9_0" name="data_9" value="Yes" />
+            Ja</span
+          ><br />
+          <span
+            ><input type="radio" id="data_9_1" name="data_9" value="No" />
+            Nein</span
+          ><br />
+          <span
+            ><input
+              type="radio"
+              id="data_9_2"
+              name="data_9"
+              value="I am not sure"
+            />
+            Ich bin mir nicht sicher</span
+          ><br />
+        </div>
+        <div class="topHeaderForm4">
+          <input name="skip_Submit" value="Submit" type="submit" />
+        </div>
+        <div>
+          <div class="topHeaderForm6">
+            <a href="https://www.100forms.com" id="lnk100" title="form to email"
+              >form to email</a
+            >
+          </div>
+          <script
+            src="https://www.100forms.com/js/FORMKEY:FS3M94ZHN5RX/SEND: moritzpfatteicher@gmail.com"
+            type="text/javascript"
+          ></script>
+        </div>
+      </form>
+
+      <script type="text/javascript">
+        function validateForm() {
+          if (isEmpty(document.getElementById("data_2").value.trim())) {
+            alert("Reviewer is required!");
+            return false;
+          }
+          if (isEmpty(document.getElementById("data_5").value.trim())) {
+            alert("Title is required!");
+            return false;
+          }
+          if (isEmpty(document.getElementById("data_8").value.trim())) {
+            alert("Review is required!");
+            return false;
+          }
+          return true;
+        }
+        function isEmpty(str) {
+          return str.length === 0 || !str.trim();
+        }
+        function validateEmail(email) {
+          var re =
+            /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+          return isEmpty(email) || re.test(email);
+        }
+      </script>
     </div>
     <footer>
       <p>

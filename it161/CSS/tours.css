@@ -19,7 +19,7 @@
   
   .LandingPageContent {
     background-color: white;
-    opacity: 90%;
+    opacity: 95%;
     width: 84.8%;
     color: rgb(8, 8, 8);
     padding-top: 3rem;
@@ -78,7 +78,7 @@
     color: rgb(0, 0, 0);
   }
   .bg {
-    background-image: url("/images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
+    background-image: url("images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-y: -20rem;
@@ -99,7 +99,7 @@
     text-align: center;
     color: rgb(0, 0, 0);
     margin-top: 8rem;
-    margin-left: 6rem;
+    margin-left: 20rem;
     font-size: 3rem;
   }
   .nav-item :hover {
@@ -109,15 +109,15 @@
   .LandingPageContent {
     background-color: white;
     opacity: 90%;
-    width: 81%;
+    width: auto;
     color: rgb(8, 8, 8);
     padding-top: 3rem;
     margin-left: 18rem;
     margin-top: 18rem;
   }
   .MainContentImage {
-    width: 25rem;
-    height: 25rem;
+    width: 15rem;
+    height: 18rem;
     float: right;
     margin-left: -50rem;
     margin-top: 2.7rem;
@@ -137,6 +137,7 @@
     float: left;
     backdrop-filter: blur(1rem);
     position: fixed;
+    top: 0rem;
   }
   #HomepageHeaderPic {
     object-fit: cover;
@@ -150,10 +151,10 @@
     text-align: center;
     margin-top: 30rem;
     font-size: 1.1rem;
-    color: rgb(173, 165, 165);
+    color: rgb(0, 0, 0);
   }
   .bg {
-    background-image: url("/images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
+    background-image: url("images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -161,7 +162,7 @@
     width: 60%;
     color: rgb(173, 165, 165);
     padding-top: 2rem;
-    margin-left: 15rem;
+    margin-left: 2rem;
     font-weight: 400;
     font-size: 1.4rem;
   }
@@ -176,11 +177,11 @@
   }
   
   .ToursHeading {
-    text-align: center;
+    text-align: left;
     color: rgb(0, 0, 0);
-    margin-top: 8rem;
-    margin-left: 6rem;
-    font-size: 3rem;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    font-size: 2.8rem;
   }
   .nav-item :hover {
     color: rgb(107, 104, 104);
@@ -192,20 +193,21 @@
     width: 81%;
     color: rgb(8, 8, 8);
     padding-top: 3rem;
-    margin-left: 18rem;
-    margin-top: 18rem;
+    margin-left: 12rem;
+    margin-top: 10rem;
   }
   .MainContentImage {
-    width: 25rem;
+    display: none;
+    /* width: 25rem;
     height: 25rem;
     float: right;
     margin-left: -50rem;
     margin-top: 2.7rem;
-    
+     */
   }
   .LogoNav {
-    height: 7rem;
-    width: 18.1rem;
+    height: 4rem;
+    width: 12rem;
   }
   .LogoHeader {
     text-align: center;
@@ -230,18 +232,18 @@
     text-align: center;
     margin-top: 10rem;
     font-size: 0.8rem;
-    color: rgb(173, 165, 165);
+    color: rgb(0, 0, 0);
   }
   .bg {
-    background-image: url("/images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
+    background-image: url("images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
   .Para1 {
-    width: 55%;
+    width: 90%;
     color: rgb(173, 165, 165);
     padding-top: 2rem;
-    margin-left: 11rem;
+    margin-left: 2rem;
     font-weight: 300;
     font-size: 1.2rem;
   }

@@ -6,7 +6,7 @@
     <meta name="robots" content="noindex,nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <link rel="stylesheet" href="contact.css" /> 
+    <link rel="stylesheet" href="CSS/contact.css" /> 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,7 +14,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="CSS/nav.css" />
     
   </head>
   <body>
@@ -36,8 +36,8 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="Newsletter.html"
-            >Newsletter</a
+          <a class="nav-link active" aria-current="page" href="contact.php"
+            >Kontakt</a
           >
         </li>
         <li class="nav-item">

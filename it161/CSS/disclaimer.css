@@ -78,7 +78,7 @@ h1 {
     color: rgb(173, 165, 165);
   }
   .bg {
-    background-image: url("/images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
+    background-image: url("images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-y: -25rem;
@@ -118,7 +118,7 @@ h1 {
     color: rgb(173, 165, 165);
   }
   .bg {
-    background-image: url("/images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
+    background-image: url("images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -163,7 +163,7 @@ h1 {
     color: rgb(173, 165, 165);
   }
   .bg {
-    background-image: url("/images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
+    background-image: url("images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
   }

@@ -25,11 +25,11 @@
   }
   .nav-link {
     color: rgb(173, 165, 165);
-    margin-top: 1.2rem;
-    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
   .nav-item {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 }
 
@@ -38,6 +38,7 @@
   .Navbar {
     width: auto;
     height: 100%;
+    top: -0.5rem;
   }
   .nav-link {
     color: rgb(173, 165, 165);
@@ -45,6 +46,6 @@
     margin-bottom: 1.9rem;
   }
   .nav-item {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }

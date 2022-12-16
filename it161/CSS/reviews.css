@@ -1,43 +1,73 @@
-h1 {
-  text-align: center;
-  color: rgb(0, 0, 0);
-  margin-left: 2rem;
-}
-
-.reviewsHeading {
-  text-align: center;
-  color: rgb(0, 0, 0);
-  margin-top: 6rem;
-  margin-left: 12rem;
-  font-size: 3.5rem;
-}
-.nav-item :hover {
-  color: rgb(107, 104, 104);
-}
-
-.LandingPageContent {
-  background-color: white;
-  opacity: 90%;
-  width: 81%;
-  color: rgb(8, 8, 8);
-  padding-top: 3rem;
-  margin-left: 18rem;
-  margin-top: 18rem;
-}
-.MainContentImage {
-  width: 25rem;
-  height: 25rem;
-  float: right;
-  margin-left: -50rem;
-  margin-top: 2.7rem;
-}
-.LogoNav {
-  height: 7rem;
-  width: 18.1rem;
-}
-
 /* DESKTOP */
 @media all and (min-width: 1200px) {
+  .reviewForm {
+    margin-left: 2rem;
+  }
+  .topHeaderForm {
+    max-width: 400px;
+  }
+.topHeaderForm2 {
+  padding-bottom: 18px; 
+  font-size: 24px;
+}
+.topHeaderForm3 {
+  padding-bottom: 18px;
+}
+.form-control {
+  max-width: 450px;
+}
+
+.topHeaderForm4 {
+  padding-bottom: 18px;
+}
+.topHeaderForm5 {
+  color: red
+}
+.form-control2 {
+  max-width: 150px;
+}
+.topHeaderForm6 {
+  float: right;
+}
+
+
+  h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
+  }
+  
+  .reviewsHeading {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 6rem;
+    margin-left: 12rem;
+    font-size: 3.5rem;
+  }
+  .nav-item :hover {
+    color: rgb(107, 104, 104);
+  }
+  
+  .LandingPageContent {
+    background-color: white;
+    opacity: 90%;
+    width: 84.8%;
+    color: rgb(8, 8, 8);
+    padding-top: 3rem;
+    margin-left: 18rem;
+    margin-top: 18rem;
+  }
+  .MainContentImage {
+    width: 31rem;
+    height: 30.9rem;
+    float: right;
+    margin-left: -50rem;
+    margin-top: -22rem;
+  }
+  .LogoNav {
+    height: 7rem;
+    width: 18.1rem;
+  }
   .LogoHeader {
     text-align: center;
     margin-left: 17rem;
@@ -73,15 +103,15 @@ h1 {
   }
   footer {
     text-align: center;
-    margin-top: 20rem;
+    margin-top: 15rem;
     font-size: 1.1rem;
-    color: rgb(173, 165, 165);
+    color: rgb(0, 0, 0);
   }
   .bg {
-    background-image: url("/images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
+    background-image: url("images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-y: -25rem;
+    background-position-y: -20rem;
   }
 }
 
@@ -89,8 +119,73 @@ h1 {
 
 /* TABLET */
 @media all and (min-width:501px) and (max-width:1199px){
+
+  .reviewForm {
+    margin-left: 2rem;
+  }
+  .topHeaderForm {
+    max-width: 400px;
+  }
+.topHeaderForm2 {
+  padding-bottom: 18px; 
+  font-size: 24px;
+}
+.topHeaderForm3 {
+  padding-bottom: 18px;
+}
+.form-control {
+  max-width: 450px;
+}
+
+.topHeaderForm4 {
+  padding-bottom: 18px;
+}
+.topHeaderForm5 {
+  color: red
+}
+.form-control2 {
+  max-width: 150px;
+}
+.topHeaderForm6 {
+  float: right;
+}
   h1 {
-    margin-left: 8rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
+  }
+  
+  .reviewsHeading {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin-top: 6rem;
+    margin-left: 19rem;
+    font-size: 2.8rem;
+  }
+  .nav-item :hover {
+    color: rgb(107, 104, 104);
+  }
+  
+  .LandingPageContent {
+    background-color: white;
+    opacity: 90%;
+    width: auto;
+    color: rgb(8, 8, 8);
+    padding-top: 3rem;
+    margin-left: 18rem;
+    margin-top: 18rem;
+  }
+  .MainContentImage {
+    display: none;
+    /* width: 25rem;
+    height: 25rem;
+    float: right;
+    margin-left: -50rem;
+    margin-top: 2.7rem; */
+  }
+  .LogoNav {
+    height: 7rem;
+    width: 18.1rem;
   }
   .LogoHeader {
     text-align: center;
@@ -102,6 +197,7 @@ h1 {
     float: left;
     backdrop-filter: blur(1rem);
     position: fixed;
+    top: 0rem;
   }
   #HomepageHeaderPic {
     object-fit: cover;
@@ -115,18 +211,18 @@ h1 {
     text-align: center;
     margin-top: 30rem;
     font-size: 1.1rem;
-    color: rgb(173, 165, 165);
+    color: rgb(0, 0, 0);
   }
   .bg {
-    background-image: url("/images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
+    background-image: url("images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
   .Para1 {
-    width: 60%;
+    width: 90%;
     color: rgb(173, 165, 165);
     padding-top: 2rem;
-    margin-left: 15rem;
+    margin-left: 2rem;
     font-weight: 400;
     font-size: 1.4rem;
   }
@@ -134,8 +230,72 @@ h1 {
 
 /* PHONE */
 @media all and (max-width: 500px) {
+  .reviewForm {
+    margin-left: 2rem;
+  }
+  .topHeaderForm {
+    max-width: 400px;
+  }
+.topHeaderForm2 {
+  padding-bottom: 18px; 
+  font-size: 24px;
+}
+.topHeaderForm3 {
+  padding-bottom: 18px;
+}
+.form-control {
+  max-width: 450px;
+}
+
+.topHeaderForm4 {
+  padding-bottom: 18px;
+}
+.topHeaderForm5 {
+  color: red
+}
+.form-control2 {
+  max-width: 150px;
+}
+.topHeaderForm6 {
+  float: right;
+}
   h1 {
-    margin-left: 8rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
+  }
+  
+  .reviewsHeading {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 6rem;
+    margin-left: 13rem;
+    font-size: 2.8rem;
+  }
+  .nav-item :hover {
+    color: rgb(107, 104, 104);
+  }
+  
+  .LandingPageContent {
+    background-color: white;
+    opacity: 90%;
+    width: 80%;
+    color: rgb(8, 8, 8);
+    padding-top: 1rem;
+    margin-left: 12rem;
+    margin-top: 5rem;
+  }
+  .MainContentImage {
+    display: none;
+    /* width: 25rem;
+    height: 25rem;
+    float: right;
+    margin-left: -50rem;
+    margin-top: 2.7rem; */
+  }
+  .LogoNav {
+    height: 4rem;
+    width: 12rem;
   }
   .LogoHeader {
     text-align: center;
@@ -160,19 +320,19 @@ h1 {
     text-align: center;
     margin-top: 10rem;
     font-size: 0.8rem;
-    color: rgb(173, 165, 165);
+    color: rgb(8, 8, 8);
   }
   .bg {
-    background-image: url("/images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
+    background-image: url("images/dat-nguyen-r0nTkUxWNJU-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
   .Para1 {
-    width: 55%;
+    width: 90%;
     color: rgb(173, 165, 165);
-    padding-top: 2rem;
-    margin-left: 11rem;
+    padding-top: 1rem;
+    margin-left: 1rem;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
